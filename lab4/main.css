@@ -1,0 +1,77 @@
+.header{
+    position: flex;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.navigation{
+    text-align: center;
+    list-style: none;
+}
+
+.line{
+    color: blue;
+}
+
+.navList{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.tabs {
+    background: blue;
+    text-decoration: none;
+    color: white;
+    font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, serif;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#viewTab{
+    margin-right: 36px;
+
+}
+
+#myInfo{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#text{
+    margin-left: 40px;
+}
+
+#name{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#pokemonInfo{
+    text-align: center;
+    margin-top: 150px; 
+}
+
+#abilities{
+    display: table-cell; 
+}
+
+.abilityName{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 470;
+}
+
+.ability{
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid blue;
+    padding: 5px;
+    width: 80%;
+    word-wrap: break-word;
+    margin-left: 20%;
+    border-radius: 25px;
+}

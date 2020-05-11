@@ -1,0 +1,119 @@
+.page_header{
+	background: #676565;
+	margin-top: 10px;
+	display: flex;
+	font-family: 'Lora', serif;
+	border-bottom: 1px solid black;
+	color: white;
+}
+
+
+
+.logo_img{
+	margin-left: 100px;
+	max-width: 100%
+	height: auto;
+}
+
+.number{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+.freecall{
+	
+	padding: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+.nav_list{
+  display: flex;
+  padding: 20px;
+  margin-left: 75px
+}
+
+.listItem{
+  margin-left: 60px;
+  font-size: 23px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+
+.listItem :link{
+	color:white;
+}
+
+.listItem :visited{
+	color:white;
+}
+
+.main_comp{
+	background: #e2e2e2;
+}
+.heading{
+	margin-top:100px;
+	text-align: center;
+	font-family: : Mistral;
+}
+
+.container{
+	margin-top: 50px;
+	margin-left: 120px;
+	display: flex;
+}
+.subtitle_img{
+	width: 780px;
+	height: 500px;
+}
+
+.forma{
+	margin-left: 50px;
+	margin-top: 50px;
+	border-style: double;
+	padding: 50px;
+}
+
+
+
+.text{
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.send_button{
+	color: white;
+	background: #ff2e2e;
+	font-size: 17px;
+	margin-left: 20px;
+	width: 200px;
+	height: 45px;
+}
+
+.name{
+	font-size: 20px;
+	height: 40px;
+	margin-left: 15px;
+}
+.email{
+	margin-left: 15px;
+	font-size: 20px;
+	height: 40px;
+}
+
+
+.bottom_text{
+	margin-top: 50px;
+	border-top: 1px solid black;
+	line-height: 20px;
+	width: 100%;
+
+}
+
+.inf_about{
+	margin-left: 100px;
+}

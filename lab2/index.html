@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <style>
+        body{
+            margin: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loadercircle{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+        }
+        
+        .circle1{
+            background: red;
+            animation: spin1 5s infinite;        
+        }
+
+        .circle2{
+            background:  black;
+            animation: spin2 5s infinite;           
+        }
+        .circle3{
+            background:  red;
+            animation: spin3 5s infinite;    
+            position: absolute;        
+        }
+
+        .circle4{
+            background: black;
+            animation: spin4 5s infinite;            
+        }
+
+        .loader_text{
+            opacity: 0;
+            margin-right: 52px;
+            animation: text 5s infinite;
+        }
+
+        @keyframes spin1{
+        45%, 55%{
+            transform: rotate(125deg) translateX(-100px);
+        }
+        100%{
+            transform: rotate(0deg) translateX(0px) rotate(-125deg);
+            }
+        }
+        @keyframes spin2{
+            45%, 55%{
+                transform: rotate(125deg) translateY(100px);
+            }
+            100%{
+                transform: rotate(0deg) translateY(0px) rotate(-125deg);
+            }
+        }
+
+        @keyframes spin3{
+            45%, 55%{
+                transform: rotate(125deg) translateX(100px);
+            }
+            100%{
+                transform: rotate(0deg) translateX(0px) rotate(-125deg);
+            }
+        }
+
+        @keyframes spin4{
+            45%, 55%{
+                transform: rotate(125deg) translateY(-100px);
+            }
+            100%{
+                transform: rotate(0deg) translateY(0px) rotate(-125deg);
+            }
+        }
+
+        @keyframes text{
+            10%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            80%{
+                opacity: 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class = "loadercircle loader_text">LOADING</div>
+    <div class = "loadercircle circle1"></div>
+    <div class = "loadercircle circle2"></div>
+    <div class = "loadercircle circle3"></div>
+    <div class = "loadercircle circle4"></div>
+</body>
+
+</html>
