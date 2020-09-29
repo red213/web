@@ -16,7 +16,7 @@ const object3 = {
 // Реализуйте функцию isEquivalent
 function isEquivalent(obj1, obj2){
 	for (key in obj1){
-		if (obj1[key] === obj2[key]){
+		if (obj1[key] != obj2[key]){
 			return true;
 		}
 	}
